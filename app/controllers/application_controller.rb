@@ -11,5 +11,8 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
 
+  get '/tweets' do 
+  end
+
   
 end
